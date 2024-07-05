@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", Sans-serif;
+    scroll-behavior: smooth;
+    background-color: #ffe7d4;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #FFD2D1 , #e7717d) ;
+    box-shadow: 0px 5px 3px #eeeeeeb7;
+}
+.logo {
+    max-width: 100px;
+    border-radius: 50%;
+    padding-left: 2rem;
+}
+
+.nav {
+    display: flex;
+    padding: 2rem; 
+}
+
+.nav-btn, input, .btn {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #446295;
+    border-width: thin;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #446295;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.nav-btn:hover, .btn:hover {
+    border: none;
+    font-style: italic;
+    color: #446295;
+    background-color: #ffe7d4;
+}
+
+#hero, #skills, #projects, #form-style {
+    display: flex;
+    border-radius: 25px;
+    padding: 2.5rem;
+    margin: 4%;
+}
+
+#hero {
+    flex-direction: row;
+    height: 100%;
+    background-color: #ffafb7;
+    color: #446295;
+}
+
+.photo, .text {
+    height: 100%;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.photo {
+    max-width: 40%;
+}
+
+#skills {
+    flex-direction: column;
+    background-color: #ffafb7;
+    color: #446295;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-container img {
+    padding: 2%;
+    max-width: 8rem;
+    height: 100%;
+}
+
+.bottom-text {
+    text-align: right;
+}
+
+#projects {
+    flex-direction: column;
+    background-color: #ffafb7;
+    color: #446295;
+}
+
+#form-style {
+    flex-direction: column;
+    background-color: #ffafb7;
+    color: #446295;
+}
+
+.input, .input > label {
+    padding: 1rem;
+}
+
+input, .btn {
+    background-color: #ffe7d4;
+}
+
+input:focus {
+    outline: none;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem; 
+    background-image: linear-gradient(to right, #FFD2D1 , #e7717d) ;
+    color: #446295;
+}
+
+.footer-photo {
+    padding: 0.5rem;
+    max-width: 4rem;
+    height: auto;
+}
+
+
+
