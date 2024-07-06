@@ -23,6 +23,12 @@ function Form() {
         emailjs.sendForm('service_423aers', 'template_jd6523w', form.current,'gYDLV10WXEP40q-y3').then(
             (response) => {
               console.log('SUCCESS!', response.status, response.text);
+              let div = document.getElementById('form-style');
+              while(div.firstChild && div.removeChild(div.firstChild));
+              let p = document.createElement("p");
+              let node = document.createTextNode("Email sent correctly!");
+              p.appendChild(node);
+              div.appendChild(p);
             },
             (error) => {
               console.log('FAILED...', error);
@@ -68,6 +74,7 @@ function Form() {
                 <input type="submit" value="Send" className="btn"/>
             </div>
         </form>
+        
         <h2>Looking forward to collaborating with you!</h2>
         </section>
     )

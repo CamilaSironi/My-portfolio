@@ -14,7 +14,9 @@ function Hero(){
                 <h4>Ambition and Forward-Thinking</h4>
                 <p>To ensure taking benefit from the latest advancements, I am constantly exploring new technologies, helping you stand out in a competitive market.</p>    
             </div>
-            <img className="photo" alt="my-photo" src={photo}></img>
+            <div className="photo">
+                <img alt="my-photo" src={photo}></img>
+            </div>
         </div>
     )
 }

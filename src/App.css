@@ -3,14 +3,12 @@ body {
     font-family: "Montserrat", Sans-serif;
     scroll-behavior: smooth;
     background-color: #ffe7d4;
-    height: 100vh;
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-image: linear-gradient(to right, #FFD2D1 , #e7717d) ;
-    box-shadow: 0px 5px 3px #eeeeeeb7;
 }
 .logo {
     max-width: 5rem;
@@ -49,30 +47,26 @@ body {
     border-radius: 25px;
     padding: 2.5rem;
     margin: 4%;
+    background-color: #ffafb7;
+    color: #446295;
 }
 
 #hero {
     flex-direction: row;
-    height: 100%;
-    background-color: #ffafb7;
-    color: #446295;
-    float: right;
-}
-
-.photo, .text {
-    height: 100%;
-    border-radius: 50%;
-    padding: 0.5rem;
 }
 
 .photo {
-    max-width: 40%;
+    max-width: 30%;
+    margin-left: 1rem;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
 }
 
 #skills {
     flex-direction: column;
-    background-color: #ffafb7;
-    color: #446295;
 }
 
 .skill-container {
@@ -93,14 +87,10 @@ body {
 
 #projects {
     flex-direction: column;
-    background-color: #ffafb7;
-    color: #446295;
 }
 
 #form-style {
     flex-direction: column;
-    background-color: #ffafb7;
-    color: #446295;
 }
 
 .input, .input > label {
@@ -129,5 +119,9 @@ input:focus {
     height: auto;
 }
 
-
+@media only screen and (max-width: 600px) {
+    .photo {
+        display: none;
+    }
+  }
 
