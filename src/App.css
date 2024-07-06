@@ -54,6 +54,7 @@ body {
     height: 100%;
     background-color: #ffafb7;
     color: #446295;
+    float: right;
 }
 
 .photo, .text {
@@ -80,7 +81,7 @@ body {
 
 .skill-container img {
     padding: 2%;
-    max-width: 8rem;
+    max-width: 5rem;
     height: 100%;
 }
 

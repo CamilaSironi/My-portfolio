@@ -32,10 +32,10 @@ function Form() {
 
     return(
         <section id="form-style">
-        <h4>If you want to enhance your online presence and build a website that reflects your essence, let&apos;s connect!</h4>    
+        <h2>If you want to enhance your online presence and build a website that reflects your essence, let&apos;s connect!</h2>    
         <form id="form" ref={form} onSubmit={sendEmail}>
             <div className="input">
-                <label><h5>Name:</h5></label>
+                <label>Name:</label>
                 <input
                     type="text"
                     placeholder="Joe Schmoe"
@@ -45,7 +45,7 @@ function Form() {
                 />      
             </div>
             <div className="input">
-                <label><h5>Email:</h5></label>
+                <label>Email:</label>
                 <input
                     type="text"
                     placeholder="joe.schmoe@gmail.com"
@@ -55,7 +55,7 @@ function Form() {
                 />      
             </div>
             <div className="input">
-                <label><h5>Message:</h5></label>
+                <label>Message:</label>
                 <input
                     type="text"
                     placeholder="Type your message here..."
@@ -68,7 +68,7 @@ function Form() {
                 <input type="submit" value="Send" className="btn"/>
             </div>
         </form>
-        <h4>Looking forward to collaborating with you!</h4>
+        <h2>Looking forward to collaborating with you!</h2>
         </section>
     )
 }
