@@ -13,7 +13,8 @@ body {
     box-shadow: 0px 5px 3px #eeeeeeb7;
 }
 .logo {
-    max-width: 100px;
+    max-width: 5rem;
+    height: 100%;
     border-radius: 50%;
     padding-left: 2rem;
 }
