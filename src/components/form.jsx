@@ -48,6 +48,7 @@ function Form() {
                     onChange={handleChange}
                     name="name"
                     value={data.name}
+                    required
                 />      
             </div>
             <div className="input">
@@ -58,6 +59,7 @@ function Form() {
                     onChange={handleChange}
                     name="email"
                     value={data.email}
+                    required
                 />      
             </div>
             <div className="input">
@@ -68,6 +70,7 @@ function Form() {
                     onChange={handleChange}
                     name="message"
                     value={data.message}
+                    required
                 />      
             </div>
             <div className="input">
