@@ -1,14 +1,17 @@
 body {
     margin: 0;
-    font-family: "Montserrat", Sans-serif;
+    font-family: Arial, Sans-serif;
     scroll-behavior: smooth;
-    background-color: #ffe7d4;
+    background-color: #e0e0e0e2;
+    color: #333;
 }
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: linear-gradient(to right, #FFD2D1 , #e7717d) ;
+    
+    background-color: #192939;
+            color: #ecf0f1;
 }
 .logo {
     max-width: 5rem;
@@ -26,29 +29,29 @@ body {
 .nav-btn, input, .btn {
     border-radius: 12px;
     border-style: solid;
-    border-color: #446295;
+    border-color: #e08b93;
     border-width: thin;
     padding: 0.5rem;
     margin: 0.5rem;
     text-decoration: none;
-    color: #446295;
+    color: #e08b93;
     font-family: "Montserrat", Sans-serif;
 }
 
 .nav-btn:hover, .btn:hover {
     border: none;
     font-style: italic;
-    color: #446295;
-    background-color: #ffe7d4;
+    color: #e08b93;
+    background-color: #435a71;
 }
 
 #hero, #skills, #projects, #form-style {
     display: flex;
+    border: 1px solid #ffafb7;
     border-radius: 25px;
     padding: 2.5rem;
     margin: 4%;
-    background-color: #ffafb7;
-    color: #446295;
+    background-color: #fff;
 }
 
 #hero {
@@ -72,13 +75,6 @@ body {
 .skill-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-}
-
-.skill-container img {
-    padding: 2%;
-    max-width: 5rem;
-    height: 100%;
 }
 
 .bottom-text {
@@ -98,7 +94,7 @@ body {
 }
 
 input, .btn {
-    background-color: #ffe7d4;
+    background-color: #fbdcdf;
 }
 
 input:focus {
@@ -108,15 +104,9 @@ input:focus {
 .footer {
     display: flex;
     align-items: center;
-    padding: 1rem; 
-    background-image: linear-gradient(to right, #FFD2D1 , #e7717d) ;
-    color: #446295;
-}
-
-.footer-photo {
-    padding: 0.5rem;
-    max-width: 4rem;
-    height: auto;
+    padding: 0.5rem; 
+    background-color: #192939;
+    color: #e08b93;
 }
 
 @media only screen and (max-width: 600px) {
