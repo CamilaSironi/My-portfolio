@@ -9,10 +9,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     background-color: #192939;
-            color: #ecf0f1;
+    color: #ecf0f1;
 }
+
 .logo {
     max-width: 5rem;
     height: 100%;
@@ -26,7 +26,7 @@ body {
     flex-wrap: wrap;
 }
 
-.nav-btn, input, .btn {
+.nav-btn, input, .btn, .skill-item {
     border-radius: 12px;
     border-style: solid;
     border-color: #e08b93;
@@ -77,12 +77,20 @@ body {
     justify-content: center;
 }
 
+.skill-item {
+    font-weight: bold;
+}
+
 .bottom-text {
     text-align: right;
 }
 
 #projects {
     flex-direction: column;
+}
+
+.card {
+    max-width: fit-content;
 }
 
 #form-style {
@@ -93,8 +101,8 @@ body {
     padding: 1rem;
 }
 
-input, .btn {
-    background-color: #fbdcdf;
+input, .btn, .skill-item {
+    background-color: #fff2f4;
 }
 
 input:focus {
