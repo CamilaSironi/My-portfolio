@@ -89,8 +89,17 @@ body {
     flex-direction: column;
 }
 
+.card-container {
+    display: flex;
+}
+
 .card {
-    max-width: fit-content;
+    padding: 2rem;
+}
+
+.ant-card {
+    box-sizing:  'border-box';
+    height: 100%
 }
 
 #form-style {
@@ -116,6 +125,15 @@ input:focus {
     background-color: #192939;
     color: #e08b93;
 }
+
+.ant-btn-link {
+    color: #e08b93 !important;
+}
+  
+.ant-btn-icon svg {
+    font-size: 1.5rem !important;
+}
+  
 
 @media only screen and (max-width: 600px) {
     .photo {
