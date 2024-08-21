@@ -35,7 +35,7 @@ function Projects() {
                             cover={<img alt="example" src={img2} />}
                             type='flex'
                         >
-                            <Meta title="Peluqueria" description="https://peluqueria-pink.vercel.app" />
+                            <Meta title="Naty Salon" description="https://peluqueria-pink.vercel.app" />
                         </Card>
                     </Link>
                 </div>
