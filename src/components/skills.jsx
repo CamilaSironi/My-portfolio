@@ -34,7 +34,7 @@ function Skills() {
 
     return(
         <div id="skills">
-            <h2>My main skills include...</h2>
+            <h2>My main skills include:</h2>
             <div className='skill-container'>
                 <List
                     grid={{gutter: 16}}
@@ -46,7 +46,6 @@ function Skills() {
                     )}
                 />
             </div>
-            <h2 className='bottom-text'>...and always willing to learn more!</h2>
         </div>
     )
 }

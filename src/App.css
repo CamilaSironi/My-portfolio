@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Sans-serif;
+    font-family: "Montserrat", Sans-serif;
     scroll-behavior: smooth;
     background-color: #e0e0e0e2;
     color: #333;
@@ -8,16 +8,9 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #192939;
     color: #ecf0f1;
-}
-
-.logo {
-    max-width: 5rem;
-    height: 100%;
-    border-radius: 50%;
-    padding-left: 2rem;
 }
 
 .nav {
@@ -35,14 +28,17 @@ body {
     margin: 0.5rem;
     text-decoration: none;
     color: #e08b93;
-    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+}
+
+.nav-btn {
+    border-style: none;
 }
 
 .nav-btn:hover, .btn:hover {
     border: none;
-    font-style: italic;
     color: #e08b93;
-    background-color: #435a71;
+    background-color: #374352;
 }
 
 #hero, #skills, #projects, #form-style {
@@ -50,17 +46,19 @@ body {
     border: 1px solid #ffafb7;
     border-radius: 25px;
     padding: 2.5rem;
-    margin: 4%;
+    margin: 6%;
     background-color: #f7f7f7e2;
 }
 
 #hero {
     flex-direction: row;
+    font-weight: bold;
+    line-height: 1.6;
 }
 
 .photo {
     max-width: 30%;
-    margin-left: 1rem;
+    margin-left: 3rem;
 }
 
 .photo img {
@@ -89,17 +87,36 @@ body {
     flex-direction: column;
 }
 
+.project-skill, .project-skill:hover {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #e08b93;
+    border-width: thin;
+    color: #e08b93 !important;
+    background-color: #f7f7f7e2 !important;
+    margin: 0.5rem;
+}
+
 .card-container {
     display: flex;
+    flex-direction: column;
+    border-left: thin solid #e08b93;
 }
 
 .card {
     padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    padding-left: 4rem;
 }
 
 .ant-card {
-    box-sizing:  'border-box';
-    height: 100%
+    box-sizing: 'border-box';
+    height: 100%;
+    padding: 1rem !important;
 }
 
 #form-style {
@@ -110,7 +127,7 @@ body {
     padding: 1rem;
 }
 
-input, .btn, .skill-item {
+input, .skill-item {
     background-color: #fff2f4;
 }
 
@@ -121,7 +138,8 @@ input:focus {
 .footer {
     display: flex;
     align-items: center;
-    padding: 0.5rem; 
+    justify-content: space-evenly;
+    padding: 2rem; 
     background-color: #192939;
     color: #e08b93;
 }
@@ -131,12 +149,44 @@ input:focus {
 }
   
 .ant-btn-icon svg {
-    font-size: 1.5rem !important;
+    font-size: 1.8rem !important;
+}
+
+.dark-mode {
+    background-color: #192939;
+    color: #e08b93;
+
+    #hero, #skills, #projects, #form-style, input, .skill-item {
+        background-color: #374352;
+    }
+
+    input, .skill-item {
+        background-color: #556679;
+    }
+
+    input::placeholder{
+        color: #e08b93;
+    }
+
+    .project-skill, .project-skill:hover {
+        background-color: #374352 !important;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .card {
+        flex-direction: column;
+    }
 }
   
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .photo {
         display: none;
     }  
-  }
+
+    .description {
+        padding-left: 0;
+    }
+
+}

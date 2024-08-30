@@ -38,7 +38,7 @@ function Form() {
 
     return(
         <section id="form-style">
-        <h2>If you want to enhance your online presence and build a website that reflects your essence, let&apos;s connect!</h2>    
+        <h2>If you want to enhance your online presence, let&apos;s connect!</h2>    
         <form id="form" ref={form} onSubmit={sendEmail}>
             <div className="input">
                 <label>Name:</label>
