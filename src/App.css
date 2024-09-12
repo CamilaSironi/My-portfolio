@@ -48,6 +48,7 @@ body {
     padding: 2.5rem;
     margin: 6%;
     background-color: #f7f7f7e2;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.08);
 }
 
 #hero {
@@ -95,6 +96,7 @@ body {
     color: #e08b93 !important;
     background-color: #f7f7f7e2 !important;
     margin: 0.5rem;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.08);
 }
 
 .card-container {
@@ -117,7 +119,8 @@ body {
     box-sizing: 'border-box';
     height: 100%;
     padding: 1rem !important;
-    max-width: 300px !important;
+    width: 300px !important;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.08);
 }
 
 .ant-card-body {
@@ -138,6 +141,7 @@ body {
 
 input, .skill-item {
     background-color: #fff2f4;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.08);
 }
 
 input:focus {
@@ -169,7 +173,7 @@ input:focus {
         background-color: #374352;
     }
 
-    input, .skill-item {
+    input, .skill-item, .project-skill {
         background-color: #556679;
     }
 
@@ -198,4 +202,10 @@ input:focus {
         padding-left: 0;
     }
 
+}
+
+@media only screen and (max-width: 500px) {
+    .ant-card{
+        width: 200px !important;
+    }
 }

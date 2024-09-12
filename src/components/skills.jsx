@@ -13,23 +13,26 @@ function Skills() {
             title: 'Javascript',
         },
         {
-            title: 'JAVA',
-        },
-        {
-            title: 'PHP',
-        },
-        {
-            title: 'SQL',
+            title: 'Typescript',
         },
         {
             title: 'React.js',
         },
         {
+            title: 'Node.js',
+        },
+        {
+            title: 'Tailwind',
+        },
+        {
+            title: 'SQL',
+        },
+        {
             title: 'Express',
         },
         {
-            title: 'Node.js',
-        }
+            title: 'PHP',
+        },
       ];
 
     return(
