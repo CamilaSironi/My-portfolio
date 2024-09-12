@@ -3,6 +3,7 @@ import Meta from "antd/es/card/Meta"
 import img1 from "../images/project1.png"
 import img2 from "../images/project2.png"
 import img3 from "../images/project3.png"
+import img4 from "../images/project4.png"
 import Link from "antd/es/typography/Link"
 import { GithubOutlined, LinkOutlined} from "@ant-design/icons"
 
@@ -11,6 +12,30 @@ function Projects() {
         <div id="projects">
             <h2>See my latest projects:</h2>
             <div className="card-container">
+
+                <div className="card">
+                    <Link href={'https://todo-app-two-rosy.vercel.app/'} target="_blank">
+                        <Card
+                            hoverable
+                            bordered={true}
+                            cover={<img alt="example" src={img4} />}
+                            type='flex'
+                        >
+                            <Meta title="Todo App" description="https://todo-app-two-rosy.vercel.app/" />
+                        </Card>
+                    </Link>
+                    <div className="description">
+                        <h2>Todo App</h2>
+                        <Button className="project-skill" type="primary">React</Button>
+                        <Button className="project-skill" type="primary">Typescript</Button>
+                        <Button className="project-skill" type="primary">Tailwind</Button>
+                        <Button className="project-skill" type="primary">Kinde</Button>
+                        <p>Todo App allows you to create, delete and mark todos as completed. You can also login or register for special features!</p> 
+                        <Button className="btn" type="link" href="https://github.com/CamilaSironi/Todo-app" target="_blank" icon={<GithubOutlined/>} size="large">Code</Button>
+                        <Button className="btn" type="link" href="https://todo-app-two-rosy.vercel.app/" target="_blank" icon={<LinkOutlined />} size="large">Preview</Button>  
+                    </div>
+                </div>
+
                 <div className="card">
                     <Link href={'https://movies-front-five.vercel.app'} target="_blank">
                         <Card
@@ -19,7 +44,7 @@ function Projects() {
                             cover={<img alt="example" src={img1} />}
                             type='flex'
                         >
-                            <Meta title="Movies Page" description="movies-front-five.vercel.app" />
+                            <Meta title="Movies Page" description="https://movies-front-five.vercel.app" />
                         </Card>
                     </Link>
                     <div className="description">
@@ -33,6 +58,7 @@ function Projects() {
                         <Button className="btn" type="link" href="https://movies-front-five.vercel.app/" target="_blank" icon={<LinkOutlined />} size="large">Preview</Button>  
                     </div>
                 </div>
+
                 <div className="card">
                     <Link href={'https://peluqueria-pink.vercel.app'} target="_blank">
                         <Card
