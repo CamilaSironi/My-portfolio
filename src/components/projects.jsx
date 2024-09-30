@@ -3,6 +3,7 @@ import Meta from "antd/es/card/Meta"
 import img1 from "../images/project1.png"
 import img3 from "../images/project3.png"
 import img4 from "../images/project4.png"
+import img5 from "../images/project5.png"
 import Link from "antd/es/typography/Link"
 import { GithubOutlined, LinkOutlined} from "@ant-design/icons"
 
@@ -17,7 +18,7 @@ function Projects() {
                         <Card
                             hoverable
                             bordered={true}
-                            cover={<img alt="example" src={img4} />}
+                            cover={<img alt="example" src={img5} />}
                             type='flex'
                         >
                             <Meta title="Naty Salon" description="https://naty-salon.vercel.app/" />
