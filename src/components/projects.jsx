@@ -12,6 +12,29 @@ function Projects() {
             <h2>See my latest projects:</h2>
             <div className="card-container">
 
+            <div className="card">
+                    <Link href={'https://naty-salon.vercel.app/'} target="_blank">
+                        <Card
+                            hoverable
+                            bordered={true}
+                            cover={<img alt="example" src={img4} />}
+                            type='flex'
+                        >
+                            <Meta title="Naty Salon" description="https://naty-salon.vercel.app/" />
+                        </Card>
+                    </Link>
+                    <div className="description">
+                        <h2>Naty Salon</h2>
+                        <Button className="project-skill" type="primary">React</Button>
+                        <Button className="project-skill" type="primary">Typescript</Button>
+                        <Button className="project-skill" type="primary">Bootstrap</Button>
+                        <Button className="project-skill" type="primary">Kinde</Button>
+                        <p>Naty Salon is a site for a hair salon. </p> 
+                        <Button className="btn" type="link" href="https://github.com/CamilaSironi/Naty-salon" target="_blank" icon={<GithubOutlined/>} size="large">Code</Button>
+                        <Button className="btn" type="link" href="https://naty-salon.vercel.app/" target="_blank" icon={<LinkOutlined />} size="large">Preview</Button>  
+                    </div>
+                </div>
+
                 <div className="card">
                     <Link href={'https://todo-app-two-rosy.vercel.app/'} target="_blank">
                         <Card
