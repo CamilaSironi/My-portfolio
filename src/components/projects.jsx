@@ -30,7 +30,7 @@ function Projects() {
                         <Button className="project-skill" type="primary">Typescript</Button>
                         <Button className="project-skill" type="primary">Bootstrap</Button>
                         <Button className="project-skill" type="primary">Kinde</Button>
-                        <p>Naty Salon is a site for a hair salon. </p> 
+                        <p>Naty Salon is a site for a hair salon. Users can see the hairdresser&apos;s information, the services she offers, schedule appointments with her and even give away vouchers. </p> 
                         <Button className="btn" type="link" href="https://github.com/CamilaSironi/Naty-salon" target="_blank" icon={<GithubOutlined/>} size="large">Code</Button>
                         <Button className="btn" type="link" href="https://naty-salon.vercel.app/" target="_blank" icon={<LinkOutlined />} size="large">Preview</Button>  
                     </div>
