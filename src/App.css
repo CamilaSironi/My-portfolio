@@ -80,6 +80,10 @@ body {
     font-weight: bold;
 }
 
+.skill-item:hover {
+    font-size: 1rem;
+}
+
 .bottom-text {
     text-align: right;
 }

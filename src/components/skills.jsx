@@ -22,16 +22,19 @@ function Skills() {
             title: 'Node.js',
         },
         {
-            title: 'Tailwind',
-        },
-        {
-            title: 'SQL',
-        },
-        {
             title: 'Express',
         },
         {
-            title: 'PHP',
+            title: 'MySQL',
+        },
+        {
+            title: 'MongoDB',
+        },
+        {
+            title: 'Tailwind',
+        },
+        {
+            title: 'Bootstrap',
         },
       ];
 
@@ -40,7 +43,7 @@ function Skills() {
             <h2>My main skills include:</h2>
             <div className='skill-container'>
                 <List
-                    grid={{gutter: 16}}
+                    grid={{gutter: 14}}
                     dataSource={data}
                     renderItem={(item) => (
                     <List.Item>

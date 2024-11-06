@@ -4,6 +4,7 @@ import img1 from "../images/project1.png"
 import img3 from "../images/project3.png"
 import img4 from "../images/project4.png"
 import img5 from "../images/project5.png"
+import img6 from "../images/project6.png"
 import Link from "antd/es/typography/Link"
 import { GithubOutlined, LinkOutlined} from "@ant-design/icons"
 
@@ -13,7 +14,31 @@ function Projects() {
             <h2>See my latest projects:</h2>
             <div className="card-container">
 
-            <div className="card">
+                <div className="card">
+                    <Link href={'https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/'} target="_blank">
+                        <Card
+                            hoverable
+                            bordered={true}
+                            cover={<img alt="example" src={img6} />}
+                            type='flex'
+                        >
+                            <Meta title="Tienda Artesana" description="https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/" />
+                        </Card>
+                    </Link>
+                    <div className="description">
+                        <h2>Tienda Artesana</h2>
+                        <Button className="project-skill" type="primary">React.js</Button>
+                        <Button className="project-skill" type="primary">Tailwind</Button>
+                        <Button className="project-skill" type="primary">Nodejs</Button>
+                        <Button className="project-skill" type="primary">Express</Button>
+                        <Button className="project-skill" type="primary">MongoDB</Button>
+                        <Button className="project-skill" type="primary">Cloudinary</Button>
+                        <p>Tienda Artesana is an e-commerce responsive website I developed with two other developers in 5 weeks for a work simulation by &apos;No Country&apos;.</p> 
+                        <Button className="btn" type="link" href="https://github.com/CamilaSironi/" target="_blank" icon={<GithubOutlined/>} size="large">Code</Button>
+                        <Button className="btn" type="link" href="https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/" target="_blank" icon={<LinkOutlined />} size="large">Preview</Button>  
+                    </div>
+                </div>
+                <div className="card">
                     <Link href={'https://naty-salon.vercel.app/'} target="_blank">
                         <Card
                             hoverable
