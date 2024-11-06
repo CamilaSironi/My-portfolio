@@ -34,7 +34,7 @@ function Projects() {
                         <Button className="project-skill" type="primary">MongoDB</Button>
                         <Button className="project-skill" type="primary">Cloudinary</Button>
                         <p>Tienda Artesana is an e-commerce responsive website I developed with two other developers in 5 weeks for a work simulation by &apos;No Country&apos;.</p> 
-                        <Button className="btn" type="link" href="https://github.com/CamilaSironi/" target="_blank" icon={<GithubOutlined/>} size="large">Code</Button>
+                        <Button className="btn" type="link" href="https://github.com/No-Country-simulation/c21-05-ft-node-react" target="_blank" icon={<GithubOutlined/>} size="large">Code</Button>
                         <Button className="btn" type="link" href="https://c21-05-ft-node-react-mirror-frontend-64qbwssi2-muyvisual.vercel.app/" target="_blank" icon={<LinkOutlined />} size="large">Preview</Button>  
                     </div>
                 </div>
